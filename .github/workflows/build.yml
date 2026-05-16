@@ -18,13 +18,8 @@ jobs:
       with:
         dotnet-version: '5.0.x'
     
-    - name: Add NuGet source
-      run: dotnet nuget add source https://nuget.org/api/v2 --name nuget.org || true
-
-      
-    
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore --ignore-failed-sources
     
     - name: Build
       run: dotnet build --configuration Release --no-restore
