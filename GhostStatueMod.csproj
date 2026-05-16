@@ -10,12 +10,15 @@
   <ItemGroup>
     <Reference Include="StardewValley">
       <HintPath>lib/StardewValley.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="SMAPI">
       <HintPath>lib/SMAPI.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="xTile">
       <HintPath>lib/xTile.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
 
