@@ -9,11 +9,11 @@
 
   <ItemGroup>
     <Reference Include="StardewValley">
-      <HintPath>lib/StardewValley.dll</HintPath>
+      <HintPath>lib/Stardew Valley.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <Reference Include="SMAPI">
-      <HintPath>lib/SMAPI.dll</HintPath>
+    <Reference Include="StardewModdingAPI">
+      <HintPath>lib/StardewModdingAPI.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="xTile">
