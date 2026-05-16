@@ -5,11 +5,11 @@
     <AssemblyName>GhostStatueMod</AssemblyName>
     <RootNamespace>GhostStatueMod</RootNamespace>
     <LangVersion>latest</LangVersion>
+    <EnableModApiProjectReferences>true</EnableModApiProjectReferences>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SMAPI" Version="3.18.0" />
-    <PackageReference Include="StardewValley" Version="1.5.6" />
+    <PackageReference Include="SMAPI.ModBuildConfig" Version="4.0.0" />
   </ItemGroup>
 
 </Project>
